@@ -3,6 +3,8 @@ NoelShack ScreenCloud
 
 A NoelShack driver for ScreenCloud.
 
+The fork use a 'random string' for the names of the screenshots.
+
 Overview
 --------
 

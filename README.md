@@ -39,3 +39,16 @@ https://github.com/noelprint/noelshack-screencloud/raw/master/plugin-list.xml
 ```
 
 You'll then be able to install the plugin from the list.
+
+Installation fork
+------------------
+
+```
+https://raw.githubusercontent.com/kadogo/noelshack-screencloud/master/current-fork.zip
+```
+
+```
+https://raw.githubusercontent.com/kadogo/noelshack-screencloud/master/plugin-list.xml
+```
+
+

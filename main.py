@@ -4,6 +4,9 @@ import ScreenCloud
 from pynoelshack import NoelShack, NoelShackError
 import time
 
+# Random string
+import uuid
+
 
 class NoelShackUploader():
     def showSettingsUI(self, parentWidget):
@@ -15,7 +18,11 @@ class NoelShackUploader():
         return True
 
     def getFilename(self):
-        return ScreenCloud.formatFilename('screenshot')
+        # Random string (uuid4) that we split (-) for to take last section (4)
+        rnd = str(uuid.uuid4())
+        rndspl = rnd.split('-')
+        rnstr = rndspl[4]
+        return ScreenCloud.formatFilename(rnstr)
 
     def upload(self, screenshot, name):
         temp = QDesktopServices.storageLocation(QDesktopServices.TempLocation)

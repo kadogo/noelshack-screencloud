@@ -46,11 +46,11 @@ Installation fork
 ------------------
 
 ```
-https://raw.githubusercontent.com/kadogo/noelshack-screencloud/master/current-fork.zip
+https://github.com/kadogo/noelshack-screencloud/raw/master/current-fork.zip
 ```
 
 ```
-https://raw.githubusercontent.com/kadogo/noelshack-screencloud/master/plugin-list.xml
+https://github.com/kadogo/noelshack-screencloud/raw/master/plugin-list.xml
 ```
 
 
